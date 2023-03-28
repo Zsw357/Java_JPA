@@ -1,0 +1,13 @@
+server:
+  port: 8086
+spring:
+  #????????
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3308/ZSWDB?useUnicode=true&characterEncoding=utf-8&userSSL=true&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
